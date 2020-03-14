@@ -21,7 +21,7 @@ Is a newer (low) high-level language with performance comparable to C/C++, but w
 
 The compiler is therefore VERY strict and errors out on nearly anything. But it doesn't just error out, it also tells you exactly where the error is, and gives you a recommendation on how to fix it in a very visual and verbose way.
 
-NOTE: to manually compile directly use "wasm-pack build --target web"
+NOTE: to manually compile directly use `wasm-pack build --target web`
 
 The "--target web" flag tells the compiler to also build the javascript bindings to the rust/wasm functions. The result is a javascript file with TypeScript interface files that you can import and use right away. This is made to abstract away the need to manually control the shared memory between WASM and JS, which is an 1 dimensional arraybuffer.
 
