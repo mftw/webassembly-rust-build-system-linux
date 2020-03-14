@@ -1,4 +1,6 @@
 import wasmInit from "../pkg/webassembly_playaround";
+import sound from './index-rev6'
+console.log(sound)
 
 const runWasm = async () => {
   // Instantiate our wasm module

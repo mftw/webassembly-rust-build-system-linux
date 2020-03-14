@@ -8,7 +8,7 @@
     "make-bundle-iife": "rollup js-src/index.js --format iife --name 'myBundle' --file dist/bundle.js",
     "make-bundle": "rollup js-src/index.js --format esm --name 'myBundle' --file dist/bundle.js",
     "compile-rust": "bash build-wasm.sh",
-    "start": "nodemon --exec 'npm run compile-rust && npm run make-bundle && node index.js' --watch index.js --watch js-src/**/*.* --watch src/**/*.*"
+    "start": "nodemon --exec 'npm run compile-rust && npm run make-bundle && node index.js' --watch ./index.js --watch js-src/**/*.* --watch src/**/*.*"
   },
   "keywords": [],
   "author": "",

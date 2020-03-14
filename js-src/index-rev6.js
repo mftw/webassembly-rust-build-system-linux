@@ -175,3 +175,5 @@ window.pause = () => {
   beforePlay();
   stopAudioBufferSource();
 };
+
+export default "Sound loaded"
